@@ -16,7 +16,7 @@ public class Task1DeveloperDates {
                 System.out.println("Ошибка: введите корректную дату и время.");
                 return;
             }
-            System.out.println("Разработчик: Гуцалюк");
+            System.out.println("Разработчик: Гуцалюк Дмитрий");
             System.out.println("Дата получения: " + format.format(received));
             System.out.println("Дата сдачи: " + format.format(new Date()));
         }
